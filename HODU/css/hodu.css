@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 902px;
+    background-color: #F2E9D8;
+}
+
+main {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 160px;
+}
+
+h1 {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+h3 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #D97652;
+}
+
+hr {
+    width: 1278px;
+    height: 1px;
+    margin: 0 auto;
+}
+
+button {
+   /* width: 140px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 40px;
+    background-color: #D97652;
+    border-color: #D97652;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;*/
+    cursor: pointer;
+}
+
+/* HEADER START */
+.top-navigation {
+    width: 100%;
+    height: 102px;
+    display: inline-block;
+}
+
+.top-navigation ul {
+    display: inline-block;
+    float: right;
+}
+
+.top-navigation li {
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+}
+
+.top-nav-a {
+    display: block; /* inline 태그라 block으로 변경 후 사용 */
+    padding-top: 41px;
+    text-decoration-line: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+}
+
+.top-nav-btn {
+    margin-top: 26px;
+    margin-right: 320px;
+    margin-left: 19px;
+    width: 140px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 40px;
+    background-color: #D97652;
+    border-color: #D97652;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.top-main-logo {
+    display: inline-block;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-left: 320px;
+    width: 130px;
+    height: 40px;
+}
+
+.top-section {
+    display: inline-block;
+    width: 100%;
+}
+
+.top-section h1 {
+    padding-top: 200px;
+    padding-left: 320px;
+}
+
+.top-section h3 {
+    padding-top: 40px;
+    padding-left: 320px;
+}
+
+.top-section button {
+    margin-top: 40px;
+    margin-left: 320px;
+    width: 140px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 40px;
+    background-color: #D97652;
+    border-color: #D97652;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.top-cat-img {
+    padding-top: 32px;
+    padding-right: 320px;
+    width: 415px;
+    height: 766px;
+    float: right;
+}
+/* HEADER END*/
+
+/* MAIN START */
+/* Middle Section1 START*/
+.middle-section-1 {
+    display: flex;
+    width: 100%;
+}
+
+.middle-section-1 h2 {
+    padding-top: 172px;
+    padding-left: 110px;
+}
+
+.middle-section-1 h3 {
+    padding-top: 30px;
+    padding-left: 110px;
+}
+
+.middle-top-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.middle-cat-img {
+    margin-top: 80px;
+    margin-left: 320px;
+    width: 660px;
+    height: 390px;
+    border-radius: 30px;
+}
+/* Middle Section1 END*/
+
+/* Middle Section2 START*/
+.middle-section-2 h1 {
+    padding-top: 120px;
+    /*padding-left: 523px;*/
+    text-align: center;
+    color: #D97652;
+
+}
+
+.middle-section-2 h3 {
+    padding-top: 40px;
+    padding-left: 80px;
+    text-align: center;
+}
+/* Middle Section2 END*/
+
+/* Middle Section3 START*/
+.middle-section-3 {
+    padding-top: 16px;
+}
+
+.middle-main-div {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+}
+
+.middle-main-cat-img {
+    margin-top: 72px;
+    border-radius: 30px;
+    width: 378px;
+    height: 378px;
+}
+
+.middle-main-btn {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.middle-main-btn h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #000000;
+}
+
+.middle-main-btn button {
+    margin-top: 28px;
+    width: 140px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 40px;
+    background-color: #D97652;
+    border-color: #D97652;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.middle-main-btn hr {
+    margin-top: 80px;
+    color: #C4C4C4;
+}
+/* Middle Section3 END*/
+
+/* Middle Section4 START*/
+.middle-section-4 {
+    padding-top: 68px;
+}
+
+.middle-section-4 h2, .middle-section-4 h3 {
+    padding-left: 320px;
+}
+
+.middle-section-4 h3 {
+    padding-top: 20px;
+    font-weight: 500;
+    color: #606367;
+}
+
+.middle-map-div {
+    margin-top: 48px;
+    margin-left: 320px;
+}
+/* Middle Section4 END*/
+
+/* Middle Section5 START*/
+.middle-section-5 {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    width: 1280px;
+    height: 200px;
+    margin-top: 81px;
+    margin-left: 320px;
+    border-radius: 30px;
+    background-color: #263140;
+}
+
+.middle-subscribe-text-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-section-5 h2 {
+    padding-top: 50px;
+    padding-bottom: 18px;
+    padding-left: 58px;
+    color: #FFFFFF;
+}
+
+.middle-section-5 h3 {
+    padding-left: 58px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F2E9D8;
+
+}
+
+.middle-subscribe-div {
+    position: relative;
+}
+
+input[type="email"] {
+    background-image: url("../img/mail.png");
+    background-repeat: no-repeat;
+    background-position: 20px 18px;
+    padding-left: 50px;
+    width: 480px;
+    height: 60px;
+    margin-top: 69px;
+    margin-left: 163px;
+    border-radius: 60px;
+}
+
+.subscribe-btn {
+    position: absolute;
+    top: 76px;
+    left: 555px;
+    width: 135px;
+    height: 50px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+/* Middle Section5 END*/
+
+/* Middle Section5 Modal START*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    width: 600px;
+    height: 400px;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 30px;
+    text-align: center;
+    background-image: url("../img/068c31426dd3beed83e84d2f28962f4b.png");
+}
+
+.modal-content img {
+    width: 110px;
+    height: 112px;
+    padding-top: 60px;
+}
+
+.modal-content h2 {
+    padding-top: 24px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #D97652;
+}
+
+.modal-content h3 {
+    padding-top: 12px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #000000;
+}
+
+.modal-btn {
+    width: 183px;
+    height: 50px;
+    margin-top: 38px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: #D97652;
+    color: white;
+    cursor: pointer;
+}
+
+.modal-btn:hover {
+    background-color: #D97652;
+}
+/* Middle Section5 Modal END*/
+
+/* Middle Section6 START*/
+.middle-section-6 {
+    position: relative;
+    height: 425px;
+    padding-top: 181px;
+}
+
+.bottom-image {
+    position: absolute;
+}
+
+.bottom-cat-img {
+    width: 100%;
+    height: 340px;
+}
+
+.btn-scroll {
+    width: 50px;
+    height: 50px;
+    padding-bottom: 99px;
+    padding-right: 24px;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.btn-scroll:hover {
+    background-image: url("../img/Ellipse 6.png");
+    background-repeat: no-repeat;
+    content: url("../img/keyboard_arrow_up.png");
+}
+/* Middle Section6 END*/
+/* MAIN END */
+
+/* FOOTER START */
+.footer-section {
+    display: inline-block;
+    width: 100%;
+}
+
+.footer-section ul{
+    display: inline-block;
+    float: right;
+}
+
+.footer-section li{
+    display: inline-block;
+    float: left;
+}
+
+.bottom-main-logo{
+    display: inline-block;
+    width: 226px;
+    height: 70px;
+    padding-top: 45px;
+    padding-left: 320px;
+}
+
+.bottom-icon-a {
+    display: block;
+    padding-right: 320px;
+}
+
+.btn-icon {
+    width: 42px;
+    height: 42px;
+    padding-top: 58px;
+    padding-left: 20px;
+}
+/* FOOTER END */
