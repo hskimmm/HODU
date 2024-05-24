@@ -1,9 +1,11 @@
 /* 이미지 추가 이벤트 */
 const addImage = document.querySelector('#addImage');
 
-addImage.addEventListener('click', function(){
+addImage.addEventListener('click', addToImg);
+
+function addToImg(){
     const container = document.querySelector('.add-div');
-    let imgUrl = `https://source.unsplash.com/random/?cat=`;
+    const imgUrl = `https://source.unsplash.com/random/?cat=`;
     let number = Math.floor(Math.random() * 1000000); // 중복 제거 로직 추가 해야할 것.
 
     for(let i=1; i < 3; i++){
@@ -15,7 +17,7 @@ addImage.addEventListener('click', function(){
         }
         container.before(newDiv);
     }
-});
+}
 
 /* 맨 위로 버튼 이벤트 */
 const scrollTopButton = document.querySelector('.btn-scroll');
