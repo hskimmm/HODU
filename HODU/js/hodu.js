@@ -5,7 +5,6 @@ addImage.addEventListener('click', addToImg);
 
 function addToImg(){
     const container = document.querySelector('.add-div');
-    /*const imgUrl = `https://source.unsplash.com/random/?cat=`;*/
     const imgUrl = `https://picsum.photos/200/300?random=`;
     let number = Math.floor(Math.random() * 1000000); // 중복 제거 로직 추가 해야할 것.
 
